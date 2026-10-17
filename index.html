@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mi primer proyecto web: una introducción a la Ingeniería Web y sus herramientas.">
+  <title>Mi Primer Proyecto Web | Ingeniería Web</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  
+  <header class="encabezado">
+    <img src="img/logo.svg" alt="Logotipo de desarrollo web" class="logo" width="120" height="120">
+    <h1>Bienvenido al Desarrollo Web</h1>
+    <p class="subtitulo">Mi primer proyecto con HTML5 | JOAN SEBASTIAN RUIZ CASALLAS |</p>
+  </header>
+
+  
+  <main>
+
+    
+    <section class="tarjeta">
+      <h2>¿Qué es la Ingeniería Web?</h2>
+      <p>
+        La Ingeniería Web es la disciplina que aplica principios de ingeniería de software
+        al diseño, construcción y mantenimiento de aplicaciones web. Una aplicación web
+        funciona bajo el modelo cliente-servidor: el navegador (cliente) solicita recursos
+        y el servidor responde con páginas HTML, hojas de estilo, scripts y datos.
+      </p>
+    </section>
+
+    
+    <section class="tarjeta" id="herramientas">
+      <h2>Herramientas del entorno de desarrollo</h2>
+      <ul>
+        <li><strong>Editor de código:</strong> Visual Studio Code, para escribir y organizar el proyecto.</li>
+        <li><strong>Navegador:</strong> Google Chrome o Firefox, para visualizar y probar la página.</li>
+        <li><strong>Servidor local:</strong> extensión Live Server, que recarga la página al guardar.</li>
+        <li><strong>Herramientas de desarrollador:</strong> DevTools (tecla F12), para inspeccionar HTML, CSS y errores.</li>
+      </ul>
+    </section>
+
+    
+    <section class="tarjeta" id="estructura">
+      <h2>Estructura del proyecto</h2>
+      <pre>MiPrimerProyectoWeb/
+├── index.html
+├── css/
+│   └── estilos.css
+├── js/
+│   └── main.js
+└── img/
+    └── logo.svg</pre>
+    </section>
+
+    
+    <section class="tarjeta">
+      <h2>Para seguir aprendiendo</h2>
+      <p>
+        Consulta la documentación oficial de HTML en
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener">MDN Web Docs</a>.
+      </p>
+      <button id="btnSaludo" type="button">Haz clic para probar JavaScript</button>
+      <p id="mensaje" aria-live="polite"></p>
+    </section>
+
+  </main>
+
+  
+  <footer class="pie">
+    <p>&copy; 2026 - Mi Primer Proyecto Web | JOAN SEBASTIAN RUIZ CASALLAS| Actividad de Configuración del Entorno.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
